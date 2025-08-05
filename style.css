@@ -23,12 +23,10 @@ header {
 }
 
 nav ul.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  flex-wrap: wrap;
+  list-style: none;
   gap: 15px;
+  padding: 0;
 }
 
 nav ul.menu li a {
@@ -39,22 +37,22 @@ nav ul.menu li a {
 
 .slider {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   padding: 10px;
-  background: #fff;
+  background-color: white;
 }
 
 .slider img {
-  max-height: 200px;
+  max-height: 220px;
   margin-right: 10px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .intro {
   display: flex;
   align-items: center;
   padding: 30px;
-  background-color: #fff;
+  background-color: white;
 }
 
 .intro-text {
@@ -70,82 +68,42 @@ nav ul.menu li a {
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 30px 20px;
+  gap: 20px;
 }
 
 .card-section {
-  width: 30%;
-  min-width: 280px;
-  margin: 15px;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
   padding: 20px;
+  border-radius: 8px;
   text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .card-section img {
   width: 100%;
-  height: auto;
   border-radius: 6px;
 }
 
-h2 {
+.card-section h2 {
   color: #d32f2f;
+  margin-top: 10px;
 }
 
 button {
   background-color: #d32f2f;
   color: white;
   border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  font-size: 14px;
+  padding: 10px 16px;
   border-radius: 4px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #b71c1c;
-}
-
-.overview {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 30px;
-  background-color: #fff;
-}
-
-.card {
-  width: 28%;
-  background-color: #f0f0f0;
-  margin: 10px;
-  border-radius: 8px;
-  padding: 15px;
-}
-
-.explore {
-  padding: 30px;
-  background-color: white;
-  text-align: center;
-}
-
-.philosophy-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  list-style: none;
-  padding: 0;
-}
-
-.philosophy-list li {
-  background: #d32f2f;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 4px;
 }
 
 footer {
@@ -157,5 +115,5 @@ footer {
 
 .social-icons img {
   height: 30px;
-  margin: 0 10px;
+  margin: 0 8px;
 }
